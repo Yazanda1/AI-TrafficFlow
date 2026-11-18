@@ -1,0 +1,37 @@
+
+<routes>
+    <vType
+        id="car"
+        vClass="passenger"
+        accel="2.6"
+        decel="4.5"
+        length="5"
+        maxSpeed="13.89"
+    />
+
+    <route id="route_0" edges="E3 E4"/>
+
+    <vehicle
+        id="auto_1"
+        type="car"
+        route="route_0"
+        depart="0"
+        color="1,0,0"
+    />
+
+    <vehicle
+        id="auto_2"
+        type="car"
+        route="route_0"
+        depart="8"
+        color="0,0,1"
+    />
+
+    <vehicle
+        id="auto_3"
+        type="car"
+        route="route_0"
+        depart="16"
+        color="0,1,0"
+    />
+</routes>

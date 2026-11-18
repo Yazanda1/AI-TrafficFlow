@@ -1,0 +1,19 @@
+
+# Virtuelle Python-Umgebung
+.venv/
+
+# Python-Zwischendateien
+__pycache__/
+*.pyc
+
+# Videos und KI-Modelle
+*.mp4
+*.webm
+*.avi
+*.pt
+
+# Generierte Ergebnisse
+results/
+
+# Editor-Einstellungen
+.vscode/

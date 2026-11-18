@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-11-18T12:05:57.755579+01:00 by Eclipse SUMO netedit 1.28.0
+<neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\AI-TrafficFlow\sumo\hello.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\AI-TrafficFlow\sumo\hello.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <new-network value="false"/>
+    </netedit>
+
+</neteditConfiguration>
+-->
+
+<net version="1.20" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="-79.07,-3.01,44.61,-2.63" origBoundary="10000000000.00,10000000000.00,-10000000000.00,-10000000000.00" projParameter="!"/>
+
+    <edge id=":J7_0" function="internal">
+        <lane id=":J7_0_0" index="0" speed="13.89" length="0.30" shape="-10.05,-4.23 -9.76,-4.23"/>
+    </edge>
+
+    <edge id="E3" from="J6" to="J7" priority="-1">
+        <lane id="E3_0" index="0" speed="13.89" length="69.02" shape="-79.07,-4.23 -10.05,-4.23"/>
+    </edge>
+    <edge id="E4" from="J7" to="J8" priority="-1">
+        <lane id="E4_0" index="0" speed="13.89" length="54.36" shape="-9.76,-4.23 44.60,-4.61"/>
+    </edge>
+
+    <junction id="J6" type="dead_end" x="-79.07" y="-2.63" incLanes="" intLanes="" shape="-79.07,-2.63 -79.07,-5.83"/>
+    <junction id="J7" type="priority" x="-9.90" y="-2.63" incLanes="E3_0" intLanes=":J7_0_0" shape="-9.75,-2.63 -9.77,-5.83 -10.05,-5.83 -10.05,-2.63">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="J8" type="dead_end" x="44.61" y="-3.01" incLanes="E4_0" intLanes="" shape="44.59,-6.21 44.61,-3.01"/>
+
+    <connection from="E3" to="E4" fromLane="0" toLane="0" via=":J7_0_0" dir="s" state="M"/>
+
+    <connection from=":J7_0" to="E4" fromLane="0" toLane="0" dir="s" state="M"/>
+
+</net>
