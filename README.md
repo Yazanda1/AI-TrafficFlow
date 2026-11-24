@@ -71,6 +71,14 @@ Die Videodateien werden nicht auf GitHub hochgeladen.
 Das Bellevue-Testvideo stammt aus dem City of Bellevue
 Traffic Video Dataset (siehe Videoquelle fuer WP1).
 
+Erste SUMO-Simulation:
+
+    sumo-gui -c sumo\hello\hello.sumocfg
+
+SUMO-Test mit Fahrzeugstatistiken:
+
+    sumo -c sumo\hello\hello.sumocfg --no-step-log --duration-log.statistics true
+
 TraCI-Grundtest:
 
     cd sumo\hello
