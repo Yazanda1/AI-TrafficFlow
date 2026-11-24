@@ -87,3 +87,40 @@ Eigene Ampelsteuerung:
 - Verkehrsvideos werden nicht im Git-Repository gespeichert.
 - Die späteren Arbeitspakete WP1 bis WP7
   werden schrittweise umgesetzt.
+## Videoquelle fuer WP1
+
+Datensatz:
+City of Bellevue - Traffic Video Dataset
+
+Quelle:
+https://github.com/City-of-Bellevue/TrafficVideoDataset
+
+Kreuzung:
+150th Avenue / SE 38th Street, Bellevue, USA
+
+Originalaufnahme:
+Bellevue_150th_SE38th__2017-09-10_18-08-24.mp4
+
+Fuer die ersten Untersuchungen wurde der Abschnitt
+von Minute 30:00 bis 35:00 ausgewaehlt.
+
+Lokaler Dateiname:
+Bellevue_30_35.mp4
+
+Eigenschaften:
+- 1280 x 720 Pixel
+- ca. 30 FPS
+- ca. 5 Minuten
+- feste Kameraperspektive
+- sichtbare Ampelkreuzung und Warteschlangen
+
+Das Video wird wegen seiner Groesse und der zu
+pruefenden Nutzungsbedingungen nicht auf GitHub
+hochgeladen.
+
+Annotiertes Beispielbild:
+documentation/evidence/Bellevue_Counting_Line.png
+
+Die gelbe Linie ist eine vorgeschlagene Zaehlposition.
+Die automatische Fahrzeugzaehlung ist noch nicht
+Teil von WP0.
