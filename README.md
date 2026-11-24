@@ -60,11 +60,16 @@ Python-Grundlagen:
 
 Videoanalyse-Grundlage:
 
-    .\.venv\Scripts\python.exe video_test.py
+    .\.venv\Scripts\python.exe video_test.py verkehr.webm
 
-Erste SUMO-Simulation:
+Test mit dem Bellevue-Kreuzungsvideo:
 
-    sumo-gui -c sumo\hello\hello.sumocfg
+    .\.venv\Scripts\python.exe video_test.py Bellevue_30_35.mp4
+
+Das Video kann als Kommandozeilenargument angegeben werden.
+Die Videodateien werden nicht auf GitHub hochgeladen.
+Das Bellevue-Testvideo stammt aus dem City of Bellevue
+Traffic Video Dataset (siehe Videoquelle fuer WP1).
 
 TraCI-Grundtest:
 
